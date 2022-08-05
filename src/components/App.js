@@ -1,10 +1,13 @@
-
-
+import Home from "../pages/Home";
+import "../styles/App.css"
+import Layout from "./Layout";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello Quiz App</h1>
+      <Layout>
+        <Home></Home>
+      </Layout>
     </div>
   );
 }
